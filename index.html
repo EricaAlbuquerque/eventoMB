@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <meta charset="utf-8">
+       <!-- Compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;500&display=swap" rel="stylesheet">
+  <script src="" defer> </script>
+
+
+    <title>MBevent</title>
+  </head>
+  <style>
+    body{
+      background-image:url('img/fundo4.png');
+      height:100vh;
+      background-size: cover;
+  background-repeat: no-repeat; 
+      
+    }
+    *{
+      font-family: 'Signika', sans-serif;
+    }
+   
+    
+    </style>
+  <body>
+      <header></header>
+        <main>
+        <!--HERO -->
+        <div class="container-fluid mb-5 ">
+          <div class=" card w-auto p-3 h-100 text-light  bg-transparent" >
+            
+            <div class="row flex-lg-row-reverse mt-4 g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <!--- <img src="" class="d-block mx-lg-auto img-fluid" width="700" height="500" loading="lazy">-->
+              </div>
+              <div class="col-lg-6 mb-5">
+                <h1 class="display-5 fw-bold lh-1 mb-3 ">Campeonato Regional de Mountain Bike</h1>
+                <p class="lead text-light">  Lazer e paixão pelo Mountaim Bike reunidos em um
+                  evento beneficente para restauração do 'Parque dos Ciclistas'</p>
+                  <p class="lead fw-bold text-light"> Dias 04 e 05 de Junho </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-5">
+                  <button type="button" class="btn btn-lg px-4 me-md-2 border-2  shadow-none border-white"  style="background-color: rgb(42, 11, 11)">
+                    <a href="#form" class="link-light" style="text-decoration:none"> Inscrição </a></button>
+                  
+                  <button type="button" class="btn  btn-lg px-4 me-md-2  border-2 border-white shadow-none
+                  o  text-light" style="background-color: rgba(8, 2, 2, 0.962)">Ingressos</button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+      
+        </div><!--fecha container do hero-->
+
+  
+          
+       <div class="container-fluid text-white mt-4 bg-transparent text-center py-5 ">
+          <div class="row flex-lg-row-reverse align-items-center g-4 py-5 mt-5">
+              <h2 class="display-5  fs-2 ">Conheça as Categorias </h1>
+              <p class="lead "> Cada categoria será necessario passar por  avaliação de saude 30min antes do evento.</p>
+          </div>
+
+                    <!--container de categorias -->
+      <div class="container-fluid  p-4" style="background-color: rgba(24, 8, 8, 0.902)">
+           <div class="row  mt-5">
+              <div class="col mb-4">
+                  <img src="img/cat_black1.png"  class="rounded-circle shadow-3 "  data-bs-toggle="modal" data-bs-target="#modalCateg1">
+                   <div class="h5 text-center"> XCO Mas/Fem</div>
+                 
+
+              </div>
+              <div class="col">
+                  <img src="img/cat_black2.png" class="rounded-circle" data-bs-toggle="modal" data-bs-target="#modalCateg2">
+                  <div class="h5 text-center"> XCC Mas/Fem</div>
+              </div>
+              <div class="col">
+                 <img src="img/cat_black3.png " class="rounded-circle" data-bs-toggle="modal" data-bs-target="#modalCateg3">
+                <div class="h5 text-center">XCT Masculino</div>
+              </div>
+              <div class="col">
+                <img src="img/cat_black4.png" class="rounded-circle" data-bs-toggle="modal" data-bs-target="#modalCateg4">
+                <div class="h5 text-center"> Downhill</div>
+              </div>
+            </div>
+        </div><!--fecha container categorias-->
+    </div><!--fecha container-dark-->
+
+       
+<!-- Modal -->
+<!-- Botão para acionar modal -->
+
+
+<!-- Modal categoria 1 -->
+<div class="container-modal" id="container-modal">
+<div class="modal fade" id="modalCateg1" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="TituloModalCentralizado">Categoria XCO</h4>
+        <button class="close bg-transparent border-0 shadow-none" data-bs-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        
+      </div>
+      <div class="modal-body">
+        <h4  style="color:rgb(59, 15, 15)">Circuitos de 4 a 6 km por volta </h4>
+         <h5>Sub 23,30 e 35</h5> 
+        <h5>Numero de vagas: 50</h5>
+        <p>Inclui variedades de terrenos, tais como estradas de terra, trilhas,
+           campos e quantidade considerável de subidas e descida.
+        </p>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn text-light shadow-none" data-bs-dismiss="modal" style="background-color:rgb(42, 11, 11);"?>Fechar</button>
+        <button type="button" class="btn border-3 shadow-none" style="border-color:rgb(42, 11, 11);" >
+          <a href="#form"class="link-dark" style="text-decoration: none;"></a>Inscrição</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div><!--fecaha container -modal-->
+
+<!--Modal Categoria 2-->
+
+<div class="container-modal" id="container-modal">
+  <div class="modal fade" id="modalCateg2" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="TituloModalCentralizado">Categoria  XCC (Short Track)</h4>
+          <button class="close bg-transparent border-0 shadow-none" data-bs-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          
+        </div>
+        <div class="modal-body">
+          <h4  style="color:rgb(59, 15, 15)">Circuitos de 2 km  </h4>
+          <h5>Acima dos 18anos</h5> 
+          <h5>Número de vagas: 20</h5>
+
+          <p> O percurso não pode ultrapassar 2km e a corrida tem duração de 20 a 60 minutos.O inicio
+          e fim do percurso ocorrem no mesmo local.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn text-light shadow-none" data-bs-dismiss="modal" style="background-color:rgb(42, 11, 11);"?>Fechar</button>
+          <button type="button" class="btn border-3 shadow-none" style="border-color:rgb(42, 11, 11);" >
+            <a href="#form" class="link-dark" style="text-decoration: none;" >  Inscrição </a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div><!--fecaha container -modal-->
+  
+
+  <!-- Modal categoria 3 -->
+  <div class="container-modal" id="container-modal">
+    <div class="modal fade" id="modalCateg3" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Categoria XCT</h5>
+            <button class="close bg-transparent border-0 shadow-none" data-bs-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            
+          </div>
+          <div class="modal-body">
+            <h4  style="color:rgb(59, 15, 15)">Circuitos de 5Km e 25km </h4>
+            <h5>Sub 30 </h5> 
+            <h5>Numero de vagas: 20</h5>
+           
+            <p>As corridas “contra o relógio”O objetivo é fazer o percurso no menor tempo possível.</p>
+
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn text-light" data-bs-dismiss="modal" style="background-color:rgb(42, 11, 11);"?>Fechar</button>
+            <button type="button" class="btn border-3" style="border-color:rgb(42, 11, 11);" >
+              <a href="#form"class="link-dark" style="text-decoration: none;" >  Inscrição </a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div><!--fecaha container -modal-->
+    
+
+  <!-- Modal categoria 4 -->
+  <div class="container-modal" id="container-modal">
+    <div class="modal fade" id="modalCateg4" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="TituloModalCentralizado">Categoria Downhill</h4>
+            <button class="close bg-transparent border-0 shadow-none" data-bs-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            
+          </div>
+          <div class="modal-body">
+            <h4  style="color:rgb(59, 15, 15)">1.500m (mínimo) e 3.500m (máximo) </h4>
+            <h5>Sub 30 </h5> 
+            <h5>Numero de vagas: 10</h5>
+
+            
+            <p> Percurso é uma descida, e deve apresentar terrenos diferentes: pistas estreitas,largas,entre florestas,
+              campos, bosques e estradas. Irá tester a velocidade e habilidade técnica do competidor. </p>
+      
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn text-light shadow-none" data-bs-dismiss="modal" style="background-color:rgb(42, 11, 11);">Fechar</button>
+            <button  id="btn_inscricao"  type="button" class="btn border-3 shadow-none"  style="border-color:rgb(42, 11, 11);"  >
+              <a href="#form"  class="link-dark" style="text-decoration: none;">  Inscrição </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div><!--fecaha container -modal-->
+    
+
+
+
+   <!-- formulario-->
+
+  <div class="container-fluid text-center " style="background-color: black;"> 
+      <div class="card bg-transparent mt-5" >
+
+     <div class="container bg-transparent text-light" style="background-color: black;" >
+        <div class="row">
+          <div class="col"><!--col esquerda--></div>
+              <div class="col-6"><!--coluna meio do fomulario-->
+                  <div class="card border-4 text-light p-2 bg-transparent " >  
+                      <div class="d-inline-flex ">
+                      <div class="col m-4">
+                         <form id="form" action="https://formsubmit.co/erica.albq@gmail.com" method="POST">
+                          <input type="hidden" name="_next" value="https://ericaalbuquerque.github.io/eventoMB/thanks.html"> 
+                          <input type="hidden" name="_autoresponse" value="Obrigado pelo contato,mas esse website é fictício para fins de estudo.">
+                          <input type="hidden" name="_captcha" value="false">
+
+
+
+                          <h2>Formulario de Inscrição</h2>
+                            <div class="form-row  mt-2">
+                            
+                            <div class="form-group col-md  pt-4">
+                                <label for="inputName">Nome</label>
+                                <input type="text" id="inputName" class="form-control border-3 text-light bg-transparent" placeholder="Nome do competidor" style="border-radius: 25px; border-color:rgba(42,11, 11)" required>
+                            </div>
+        
+                            <div class="form-group  mt-2">
+                              <label for="inputEmail4">Email</label>
+                              <input type="email" class="form-control  border-3 text-light bg-transparent" id="inputEmail4" placeholder="usuario@email.com" style="border-radius: 25px; border-color:rgba(42,11, 11)" required>
+                            </div>
+        
+                            <div class="row">
+                            <div class="form-group col-md-6 mt-2">
+                              <label for="inputState">Categoria</label>
+                               <select id="inputState" class="form-control   border-3 bg-transparent"style="border-radius: 25px; border-color:rgba(42,11, 11)" required>
+                                  <option selected hidden>Nenhum</option>
+                                  <option name="xco" value="c1">XCO</option>
+                                  <option name="xcc" value="c2">XCC</option>
+                                  <option name="xtc"  value="c1">XTC</option>
+                                  <option  name="dh" value="c2">Downhill</option>
+                               </select>
+                             </div>
+                         
+                            <div class="form-group  col-md-6 mt-2" required>
+                              <label>Tamanho de Camiseta<br/>
+                              <label  class="radio-inline control-label"> 
+                                <input type="radio" name="t-shirt" value="p"> P </label>
+                              <label  class="radio-inline control-label">
+                                <input type="radio"  name="t-shirt" value="m"> M  </label>
+                              <label  class="radio-inline"> 
+                                <input type="radio" name="t-shirt" value="g"> G </label>
+                              <label  class="radio-inline"> 
+                                <input type="radio"  name="t-shirt" value="gg"> GG </label>
+                              </label>
+                  
+                        </div>
+                         </div><!--fecha row do select-->
+                           <div class="row mt-4 center">
+                             <div class="col-lg-12">
+                              <button type="submit" class="btn btn-lg px-4 text-light margin-left-10  " style="background-color:rgb(42, 11, 11)" >   Enviar   </button>
+                            </div>
+                           </div>
+                          </div><!--fecha row do form-->
+                        </form>
+                      </div>
+      
+                      </div>
+                     </div> <!--fecha card do formulario-->
+                    </div><!--coluna do meio-->
+                   <div class="col">
+                  </div>
+                </div>
+              </div>  
+           </div>
+          </div> <!--fecha container do formulario-->
+
+
+
+
+
+          <footer class="text-center text-white  pt-2 " style="background-color: rgb(15, 5, 5);">
+            <!-- Grid container -->
+            <div class="container-fluid  pb-2 pt-4 " style="background-color: rgba(18, 6, 6, 0);">
+              <!-- Section: Social media -->
+             
+                
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-2" href="https://www.instagram.com/p/Cx06-f1JLpe/" target="_blank"  role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                                  
+                <!-- Behance -->
+                <a class="btn btn-outline-light btn-floating m-2" href="https://www.behance.net/gallery/181218173/Landing-Page-Sports" target="_blank"  role="button"
+                  ><i class="fab fa-behance"></i
+                ></a>
+                
+            
+              <!-- Section: Social media -->
+            </div>
+          
+          
+            <!-- Copyright -->
+            <div class="text-center pb-3 pt-3" style="background-color: rgba(24, 8, 8);">
+              © 2023 Copyright:
+              <a class="text-white" >Montauim Bikes Eventos</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+
+
+
+
+          
+
+   <!--script e plugins javascrit-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/2b83e3e45a.js" crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>           
+
+   </main>
+
+  
+
+   
+ </body>
+</html>
